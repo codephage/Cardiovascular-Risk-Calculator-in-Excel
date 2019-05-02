@@ -12,8 +12,11 @@ This percentage represents the probability or the risk of the person to suffer a
 
 The matrix of results which this excel project is based on is a documented study published by...
 
-The matrix of results is included as JPEG file and the Excel file is included too.
-The Excel file is a macro file(.xslm) made in the 2010 version of the software.
+The matrix of results is included as JPEG file and the Excel file is included too. The file is in Spanish.
+The Excel file is a macro file(.xslm) made in the 2010 version of the software. The file is in spanish.
+You can easily translate the few spanish terms into english.
+
+In the excel file there is a sheet containing a table which enumerates every condition evaluated in the code.There is also a text file with the complete code in this repository.
 
 You just have to download the files and test them in your PC. Scan files with antivirus for security before download or execution.
 
