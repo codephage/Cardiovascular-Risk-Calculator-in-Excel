@@ -1,0 +1,6280 @@
+Function RiskCV(sex As String, age As Integer, smoke As String, PAS As Double, cholesterol As Double) As Double
+
+'RISK CALCULATION 0% FEMENINO
+'condition 1
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 2
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 3
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'-------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 4
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 5
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 6
+
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 7
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 8
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 9
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 10
+
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 11
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 12
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 13
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 14
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 15
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 16
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 17
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 18
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 19
+
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 20
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 81
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 82
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 83
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 84
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 85
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 86
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 87
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 88
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 89
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 90
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 91
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 92
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 161
+If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 162
+If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 101
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 102
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 103
+If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 21
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 22
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 23
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+
+'RISK CALCULATION 0% FEMENINO
+'condition 24
+If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 25
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'---------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 26
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 149) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 27
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 150) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'---------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 28
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 150) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'---------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 29
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 150) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 30
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 150) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 31
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 32
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 33
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 34
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 35
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 36
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 37
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 38
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 39
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 0% FEMENINO
+'condition 40
+ If sex = "F" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 41
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 150) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 42
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 43
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 44
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 45
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 46
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 47
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 48
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 49
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 50
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 51
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 52
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 53
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 56
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 61
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 62
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 63
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 0% MASCULINO
+'condition 66
+ If sex = "M" Then
+    If (age >= 40 And age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 93
+ If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 94
+ If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 95
+ If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 96
+ If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 97
+ If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 98
+ If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 99
+ If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 100
+ If sex = "F" Then
+    If (age >= 50 And age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 163
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 164
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 165
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 166
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 167
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 168
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 169
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 170
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 171
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 172
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 173
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 174
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 175
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 176
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 177
+ If sex = "F" Then
+    If (age >= 55 And age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 241
+ If sex = "F" Then
+    If (age >= 60 And age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 242
+ If sex = "F" Then
+    If (age >= 60 And age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 243
+ If sex = "F" Then
+    If (age >= 60 And age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 244
+ If sex = "F" Then
+    If (age >= 60 And age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 245
+ If sex = "F" Then
+    If (age >= 60 And age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 246
+ If sex = "F" Then
+    If (age >= 60 And age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 247
+ If sex = "F" Then
+    If (age >= 60 And age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 248
+ If sex = "F" Then
+    If (age >= 60 And age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 321
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 322
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 261
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 181
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 182
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 183
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 184
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 185
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 186
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 187
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 188
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 104
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 105
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 106
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 107
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 108
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 109
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 110
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 111
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 112
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 113
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 114
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 115
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 116
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% FEMENINO
+'condition 117
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 201
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 202
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 203
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 206
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 121
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 121
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 122
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 122
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 123
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 124
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 125
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 126
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 127
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 128
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 129
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 131
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 131
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 131
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 132
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 54
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 55
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 57
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 58
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 201) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 59
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 60
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 141
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 142
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 64
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 64
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 65
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 67
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 68
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 69
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 69
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 70
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 71
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 72
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 73
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 74
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 75
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 76
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 77
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 1% MASCULINO
+'condition 78
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.01
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 178
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 179
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 180
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 249
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 250
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 251
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 252
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 253
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 254
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 323
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 324
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 325
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 326
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 327
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 328
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 262
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 263
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 264
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 266
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 267
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 189
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 190
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 191
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 192
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 193
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 118
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 119
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% FEMENINO
+'condition 120
+ If sex = "F" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 361
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (PAS <= 150) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 361
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (PAS <= 150) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 281
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (PAS <= 150) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 282
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (PAS <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 283
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (PAS <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 283
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (PAS <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 286
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (PAS <= 150) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 204
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (PAS <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 205
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 207
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (PAS <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 208
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (PAS <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 209
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (PAS <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 211
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (PAS <= 150) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 212
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (PAS <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 130
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 133
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 134
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 135
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 136
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 137
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 221
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 222
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 143
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 144
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 144
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 145
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 146
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 147
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 148
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 151
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 79
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 79
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 2% MASCULINO
+'condition 80
+ If sex = "M" Then
+    If (age >= 40) And (age <= 49) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.02
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 3% FEMENINO
+'condition 255
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 3% FEMENINO
+'condition 256
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 3% FEMENINO
+'condition 257
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 3% FEMENINO
+'condition 258
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 329
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 330
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 331
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 332
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 332
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 341
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 342
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 343
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 265
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 268
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 269
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 271
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 271
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 194
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 195
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 196
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 197
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% FEMENINO
+'condition 198
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 362
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 363
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 284
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 285
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 287
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 288
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 291
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 291
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 210
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 213
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 214
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 216
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 138
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 139
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 139
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 301
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 223
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 224
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 226
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 227
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 149
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 150
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 152
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 3% MASCULINO
+'condition 153
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.03
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 259
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 260
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 333
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 334
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 336
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 344
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 345
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 346
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 347
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 270
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 272
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 273
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 199
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% FEMENINO
+'condition 200
+ If sex = "F" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 364
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 366
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 367
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 289
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 290
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 292
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 215
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 217
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 218
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 140
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 302
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 303
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 225
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 228
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 231
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 0) And (cholesterol < 151) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 231
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 0) And (cholesterol < 151) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 154
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 156
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 4% MASCULINO
+'condition 157
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.04
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% FEMENINO
+'condition 335
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% FEMENINO
+'condition 337
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% FEMENINO
+'condition 348
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% FEMENINO
+'condition 348
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% FEMENINO
+'condition 274
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% FEMENINO
+'condition 275
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% FEMENINO
+'condition 276
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% FEMENINO
+'condition 277
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 365
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 368
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 371
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 293
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 294
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 296
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 219
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 381
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% FEMENINO
+'condition 382
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 304
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 306
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 307
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 229
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 232
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 155
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 5% MASCULINO
+'condition 158
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (PAS <= 250) Then
+                        RiskCV = 0.05
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% FEMENINO
+'condition 338
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% FEMENINO
+'condition 339
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% FEMENINO
+'condition 349
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% FEMENINO
+'condition 351
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% FEMENINO
+'condition 352
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% FEMENINO
+'condition 278
+ If sex = "F" Then
+    If (age >= 60) And (PAS <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 369
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 372
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 295
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 297
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 297
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 220
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 383
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 305
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 308
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 230
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 233
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 236
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 6% MASCULINO
+'condition 159
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.06
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% FEMENINO
+'condition 340
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% FEMENINO
+'condition 350
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% FEMENINO
+'condition 353
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% FEMENINO
+'condition 279
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% MASCULINO
+'condition 370
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% MASCULINO
+'condition 373
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% MASCULINO
+'condition 298
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% MASCULINO
+'condition 386
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 0) And (cholesterol < 151) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% MASCULINO
+'condition 309
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% MASCULINO
+'condition 311
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% MASCULINO
+'condition 234
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% MASCULINO
+'condition 237
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 7% MASCULINO
+'condition 160
+ If sex = "M" Then
+    If (age >= 50) And (age <= 54) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.07
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 8% FEMENINO
+'condition 354
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.08
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 8% FEMENINO
+'condition 280
+ If sex = "F" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                        RiskCV = 0.08
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 8% MASCULINO
+'condition 374
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.08
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 8% MASCULINO
+'condition 376
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                        RiskCV = 0.08
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 8% MASCULINO
+'condition 299
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                        RiskCV = 0.08
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 8% MASCULINO
+'condition 384
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                          RiskCV = 0.08
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 8% MASCULINO
+'condition 387
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                          RiskCV = 0.08
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 8% MASCULINO
+'condition 312
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                          RiskCV = 0.08
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 8% MASCULINO
+'condition 235
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.08
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 8% MASCULINO
+'condition 238
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                          RiskCV = 0.08
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 9% FEMENINO
+'condition 356
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                          RiskCV = 0.09
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 9% FEMENINO
+'condition 357
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                          RiskCV = 0.09
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+
+'RISK CALCULATION 9% MASCULINO
+'condition 377
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                          RiskCV = 0.09
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 9% MASCULINO
+'condition 300
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.09
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 9% MASCULINO
+'condition 385
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS > 0) And (PAS < 140) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.09
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 9% MASCULINO
+'condition 388
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                          RiskCV = 0.09
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 9% MASCULINO
+'condition 310
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.09
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 9% MASCULINO
+'condition 313
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                          RiskCV = 0.09
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 10% FEMENINO
+'condition 355
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.1
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 10% MASCULINO
+'condition 375
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.1
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 10% MASCULINO
+'condition 378
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                          RiskCV = 0.1
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 10% MASCULINO
+'condition 391
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                          RiskCV = 0.1
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 10% MASCULINO
+'condition 316
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                          RiskCV = 0.1
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 10% MASCULINO
+'condition 239
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                          RiskCV = 0.1
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 11% FEMENINO
+'condition 358
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                          RiskCV = 0.11
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 11% MASCULINO
+'condition 389
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                          RiskCV = 0.11
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 11% MASCULINO
+'condition 314
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                          RiskCV = 0.11
+                    End If
+                End If
+        End If
+    End If
+End If
+
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 11% MASCULINO
+'condition 317
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                          RiskCV = 0.11
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 12% FEMENINO
+'condition 359
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                          RiskCV = 0.12
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 12% MASCULINO
+'condition 379
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                          RiskCV = 0.12
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 12% MASCULINO
+'condition 392
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                          RiskCV = 0.12
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 12% MASCULINO
+'condition 240
+ If sex = "M" Then
+    If (age >= 55) And (age <= 59) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.12
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 13% MASCULINO
+'condition 390
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 140) And (PAS < 160) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.13
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 13% MASCULINO
+'condition 315
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.13
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 13% MASCULINO
+'condition 318
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                          RiskCV = 0.13
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+'RISK CALCULATION 14% FEMENINO
+'condition 360
+ If sex = "F" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.14
+                    End If
+                End If
+        End If
+    End If
+End If
+'----------------------------------------------------------------
+'RISK CALCULATION 14% MASCULINO
+'condition 380
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "NO") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.14
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 14% MASCULINO
+'condition 393
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                          RiskCV = 0.14
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 15% MASCULINO
+'condition 396
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 0) And (cholesterol < 151) Then
+                          RiskCV = 0.15
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 15% MASCULINO
+'condition 319
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                          RiskCV = 0.15
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 16% MASCULINO
+'condition 394
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                          RiskCV = 0.16
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 17% MASCULINO
+'condition 397
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol >= 151) And (cholesterol <= 200) Then
+                          RiskCV = 0.17
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 18% MASCULINO
+'condition 320
+ If sex = "M" Then
+    If (age >= 60) And (age <= 64) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.18
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 19% MASCULINO
+'condition 395
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 160) And (PAS < 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.19
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 20% MASCULINO
+'condition 398
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 200) And (cholesterol <= 250) Then
+                          RiskCV = 0.2
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 23% MASCULINO
+'condition 399
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 250) And (cholesterol <= 300) Then
+                          RiskCV = 0.23
+                    End If
+                End If
+        End If
+    End If
+End If
+
+'----------------------------------------------------------------
+
+'RISK CALCULATION 26% MASCULINO
+'condition 400
+ If sex = "M" Then
+    If (age >= 65) Then
+        If (smoke = "YES") Then
+                If (PAS >= 180) Then
+                    If (cholesterol > 300) Then
+                          RiskCV = 0.26
+                    End If
+                End If
+        End If
+    End If
+End If
+End Function
